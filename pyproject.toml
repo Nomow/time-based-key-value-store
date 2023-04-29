@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "fastapiproject"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+name = "time-based-key-value-store"
+version = "1.0.0"
+description = "time based key value store using FlaskAPI"
+authors = ["Alvils Sture alvils.sture@gmail.com"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,7 +10,13 @@ python = "^3.11"
 fastapi = "^0.95.1"
 uvicorn = "^0.21.1"
 sqlmodel = "^0.0.8"
-
+pydantic = "^1.10.7"
+SQLAlchemy = "^1.4.41"
+SQLAlchemy_Utils = "^0.41.1"
+starlette = "^0.26.1"
+structlog = "^23.1.0"
+psycopg2-binary = "^2.9.6"
+python-dotenv = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]

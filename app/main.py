@@ -10,7 +10,6 @@ config_structlog()
 logger = structlog.get_logger()
 logger.info('initializing application')
 
-
 env = get_environment_variables()
 
 app = FastAPI(

@@ -1,7 +1,10 @@
+import structlog
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker, declarative_base
 from sqlalchemy_utils import database_exists, create_database
 from app.configs.config import get_environment_variables
+
+logger = structlog.get_logger()
 
 env = get_environment_variables()
 
@@ -26,5 +29,8 @@ def get_db_connection():
 
 def init_db():
     if not database_exists(engine.url):
+        logger.info('database does not exists creating new database')
         create_database(engine.url)
+    else:
+        logger.info('database exists omitting creation of new database')
     Base.metadata.create_all(bind=engine)

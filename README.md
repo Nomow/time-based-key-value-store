@@ -17,7 +17,7 @@ Time Based Key-Value Store Application using FastAPI framework in Python 3 with 
 
 Store multiple values for the same key at different timestamps and retrieve the keys value at a certain timestamp with persistent storage in PostgreSQL.
 
-## Installation
+## Running the application
 ### Using  [Docker Compose](https://docs.docker.com/compose/)
 
 - Run the command from command prompt to create and start containers:

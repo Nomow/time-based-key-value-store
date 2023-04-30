@@ -5,7 +5,6 @@ from pydantic import BaseSettings
 @lru_cache
 def get_env_filename():
     runtime_env = os.getenv("ENV")
-    print(runtime_env)
     if runtime_env is None:
         return ".env.dev"
     return f".env.{runtime_env}"

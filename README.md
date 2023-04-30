@@ -43,7 +43,20 @@ Store multiple values for the same key at different timestamps and retrieve the 
   $ curl -X GET http://localhost:8000 -H 'Content-Type: application/json' -d '{"key": "mykey", "timestamp" : 143111}' -i
   ```
 
-
+## Installation
+### Using Poetry
+**Note:** use `poetry version 1.3.2`, due to `psycopg2` issues.
+### PostgreSQL database
+  ```sh
+  $ docker run -d -e POSTGRES_PASSWORD=test123 -p 5432:5432 postgres
+  ```
+Run the following commands in terminal
+  ```sh
+  $ pip3 install poetry==1.3.2
+  $ poetry lock --no-update
+  $ poetry install
+  $ poetry run uvicorn --host=0.0.0.0 app.main:app
+  ```
 ## Testing
 - Testing with PyTest:
 

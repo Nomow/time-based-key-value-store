@@ -1,4 +1,4 @@
-version: '3.8'
+version: '1'
 
 services:
   web:
@@ -35,5 +35,3 @@ services:
       timeout: 2s
       retries: 20
 
-volumes:
-  postgres_data_prod:

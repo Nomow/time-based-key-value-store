@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://docs.python.org/3/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![postgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Typed with: pydantic](https://img.shields.io/badge/typed%20with-pydantic-BA600F.svg?style=for-the-badge)](https://docs.pydantic.dev/)
+
 [![Open Issues](https://img.shields.io/github/issues-raw/Nomow/time-based-key-value-store?style=for-the-badge)](https://github.com/Nomow/time-based-key-value-store/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed-raw/Nomow/time-based-key-value-store?style=for-the-badge)](https://github.com/Nomow/time-based-key-value-store/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pulls](https://img.shields.io/github/issues-pr-raw/0xTheProDev/fastapi-clean-example?style=for-the-badge)](https://github.com/Nomow/time-based-key-value-store/pulls)

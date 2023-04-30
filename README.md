@@ -56,7 +56,7 @@ Run the following commands in terminal
   $ pip3 install poetry==1.3.2
   $ poetry lock --no-update
   $ poetry install
-  $ poetry run uvicorn --host=0.0.0.0 app.main:app
+  $ poetry run uvicorn app.main:app
   ```
 ## Testing
 - Testing with PyTest:

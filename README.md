@@ -44,12 +44,13 @@ Store multiple values for the same key at different timestamps and retrieve the 
   ```
 
 ## Installation
-### Using Poetry
 **Note:** use `poetry version 1.3.2`, due to `psycopg2` issues.
-### PostgreSQL database
+#### PostgreSQL database
   ```sh
   $ docker run -d -e POSTGRES_PASSWORD=test123 -p 5432:5432 postgres
   ```
+
+### Poetry
 Run the following commands in terminal
   ```sh
   $ pip3 install poetry==1.3.2

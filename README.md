@@ -40,7 +40,7 @@ Store multiple values for the same key at different timestamps and retrieve the 
   ```
 - Run the following curl command in terminal for GET request:
   ```sh
-  $ curl -X GET http://localhost:8000 -H 'Content-Type: application/json' -d '{"key": "mykey", "value": "abc", "timestamp" : 143111}' -i
+  $ curl -X GET http://localhost:8000 -H 'Content-Type: application/json' -d '{"key": "mykey", "timestamp" : 143111}' -i
   ```
 
 
